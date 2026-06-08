@@ -13,6 +13,7 @@ namespace testpbo
         public Kelola_Pengguna()
         {
             InitializeComponent();
+            Kelola_Pengguna KP = new Kelola_Pengguna();
         }
 
         private void label4_Click(object sender, EventArgs e)

@@ -12,7 +12,7 @@ namespace testpbo.Properties.view
     {
         public berandaadmin()
         {
-            
+            InitializeComponent();
         }
 
         private void panel7_Paint(object sender, PaintEventArgs e)
@@ -77,7 +77,8 @@ namespace testpbo.Properties.view
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Kelola_Pengguna KP = new Kelola_Pengguna();
+            KP.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -99,6 +100,30 @@ namespace testpbo.Properties.view
         {
 
         }
-        
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dashboardberanda1_Load(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

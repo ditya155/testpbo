@@ -2,7 +2,7 @@ using testpbo.Properties.view;
 
 namespace testpbo
 {
-    public partial class login : Form
+    public partial class     login : Form
     {
         private string username;
         private string password;
@@ -32,7 +32,7 @@ namespace testpbo
             if (user == username && pass == password)
             {
                 MessageBox.Show("Silahkan Masuk Admin", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                dashboardadmin1 DbAdmin1 = new dashboardadmin1();
+                berandaadmin DbAdmin1 = new berandaadmin();
                 DbAdmin1.Show();
                 this.Hide();
             }
